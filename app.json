@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shelfserveexpo",
-    "slug": "shelfserveexpo",
+    "name": "shelfserveapp",
+    "slug": "shelfserveapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4bed737a-b1fd-4d81-a24e-11065638ea60"
+      }
+    },
+    "owner": "fabianoaljava"
   }
 }
